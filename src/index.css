@@ -1,13 +1,34 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.box {
+  height: 200px;
+  width: 50%;
+  font-size: 4rem;
+  box-sizing: border-box;
+  border: 1px solid black;
+  color: white;
+}
+
+.shortcut-description-container {
+  font-size: 1rem;
+  color: black;
+}
+
+.shortcut-description-heading {
+  margin: 8px 0px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.combo-description-container {
+  margin-top: 4px;
+}
+
+.combo {
+  text-transform: uppercase;
 }
